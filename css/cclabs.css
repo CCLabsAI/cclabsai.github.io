@@ -19,10 +19,22 @@ body {
 }
 
 .segment {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header-logo {
+    margin-bottom: 24px;
+}
+
+.explainer {
+    margin-top: 48px;
+}
+
+#launch h1 {
+    color: #1DAFDD;
+    font-size: 1.25em;
+    font-weight: 600;
 }
 
 #ncep {
@@ -31,13 +43,42 @@ body {
 }
 
 #ncep h1 {
-    margin-top: 12px;
-    margin-bottom: 12px;
+    color: #153D9D;
+    font-size: 1.25em;
+    font-weight: 600;
 }
 
 #ncep h2 {
     margin-top: 8px;
     margin-bottom: 8px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+#mailchimp {
+    color: #fff;
+    background: #36ACDE;
+    text-align: center;
+}
+
+#mailchimp button {
+    background: #153D9D;
+    border-color: #153D9D;
+}
+
+#research {
+    text-align: left;
+}
+
+#research  h1 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #2794D1;
+}
+
+#research h2 {
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
 #contact {
