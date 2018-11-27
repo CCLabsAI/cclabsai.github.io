@@ -27,8 +27,9 @@ body {
     margin-bottom: 24px;
 }
 
-.explainer {
-    margin-top: 48px;
+.col-text {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 #launch h1 {
@@ -74,11 +75,16 @@ body {
     font-size: 1.25em;
     font-weight: 600;
     color: #2794D1;
+    padding-bottom: 24px;
 }
 
 #research h2 {
     font-size: 1.1em;
     font-weight: 600;
+}
+
+#research .explainer {
+    padding-bottom: 24px;
 }
 
 #contact {
