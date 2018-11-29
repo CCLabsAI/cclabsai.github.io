@@ -4,8 +4,10 @@ body {
     font-weight: 400;
 }
 
-p {
-    font-size: 1.125rem;
+@media only screen and (min-width: 576px) {
+    p {
+        font-size: 1.125rem;
+    }
 }
 
 .nav-link {
@@ -28,15 +30,15 @@ h3 {
     font-size: 1.3125rem;
 }
 
-h2.db {
+.db {
     color: #153D9D; 
 }
 
-h2.lb {
+.lb {
     color: #1DAFDD;
 }
 
-h2.wh {
+.wh {
     color: #fff;
 }
 
@@ -178,6 +180,7 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
 
 p.vp {
     font-size: 0.875rem;
+    line-height: 1.3;
 }
 
 @media only screen and (min-width: 576px) {
