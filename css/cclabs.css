@@ -4,12 +4,29 @@ body {
     font-weight: 400;
 }
 
+p {
+    font-size: 1.125rem;
+}
+
 .nav-link {
     font-weight: 700;
 }
 
 .bg-light {
     background-color: white !important;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h2.db {
+    color: #153D9D; 
+}
+
+h2.lb {
+    color: #1DAFDD;
 }
 
 .jumbotron {
@@ -98,6 +115,14 @@ body {
 
 .header-logo {
     margin-bottom: 24px;
+    height: 84px;
+    width: auto;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-logo {
+        height: 112px;
+    }
 }
 
 .col-text {
@@ -114,19 +139,6 @@ body {
 #ncep {
     background: #ECF3F5;
     text-align: center;
-}
-
-#ncep h1 {
-    color: #153D9D;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
-#ncep h2 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 1.1em;
-    font-weight: 600;
 }
 
 #mailchimp {
