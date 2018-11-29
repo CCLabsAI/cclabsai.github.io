@@ -63,7 +63,7 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
 
 .jumbotron {
     margin-top: 220px;
-    background: url('../img/Hero.jpg');
+    background: url('../img/hero-image-RGB.jpg');
     background-position: center;
     background-size: cover;
     height: 30vh;
@@ -72,7 +72,7 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     padding: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
     .jumbotron {
         margin-top: 0;
         height: 40vh;
@@ -95,7 +95,7 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     padding-top: 15px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
     #headline {
         position: static;
         top: auto;
@@ -120,7 +120,7 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
     #headline mark { 
         line-height: 1.4;
     }
@@ -131,14 +131,14 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     padding-bottom: 40px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
     .segment {
         padding-top: 60px;
         padding-bottom: 60px;
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
     .segment {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -151,13 +151,13 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     width: auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
     .header-logo {
         height: 96px;
     }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
     .header-logo {
         height: 124px;
     }
@@ -166,8 +166,30 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
 .vp-icon {
     margin-bottom: 12px;
     margin-top: 12px;
-    height: 48px;
+    height: 64px;
     width: auto;
+}
+
+@media only screen and (min-width: 576px) {
+    .vp-icon {
+        height: 64px;
+    }
+}
+
+p.vp {
+    font-size: 0.875rem;
+}
+
+@media only screen and (min-width: 576px) {
+    p.vp {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    p.vp {
+        font-size: 1.125rem;
+    }
 }
 
 .col-text {
