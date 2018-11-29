@@ -10,6 +10,8 @@ body {
     background-position: center;
     background-size: cover;
     height: 240px;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -59,8 +61,22 @@ body {
 }
 
 .segment {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+    .segment {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .segment {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
 
 .header-logo {
