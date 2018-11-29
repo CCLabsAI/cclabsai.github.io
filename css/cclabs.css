@@ -16,9 +16,16 @@ p {
     background-color: white !important;
 }
 
+h2, h3, h4 {
+    font-weight: 700;
+}
+
 h2 {
     font-size: 1.5rem;
-    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.3125rem;
 }
 
 h2.db {
@@ -28,6 +35,31 @@ h2.db {
 h2.lb {
     color: #1DAFDD;
 }
+
+h2.wh {
+    color: #fff;
+}
+
+a, a:link, a:visited {
+    color: #1DAFDD;
+    border-bottom: 1px solid #1DAFDD;
+    text-decoration: none;
+    transition: all 200ms ease; 
+}
+
+a:hover, a:active {
+    color: #153D9D; 
+    text-decoration: none;
+    background: #d2eff8;
+    border-color: #d2eff8 ;
+}
+
+a.navbar-brand, a.navbar-brand:link, a.navbar-brand:visited, a.navbar-brand:hover, a.navbar-brand:active,
+a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active{
+    border-bottom: none;
+    background: none;
+}
+
 
 .jumbotron {
     margin-top: 220px;
@@ -115,13 +147,19 @@ h2.lb {
 
 .header-logo {
     margin-bottom: 24px;
-    height: 84px;
+    height: 72px;
     width: auto;
 }
 
 @media only screen and (min-width: 600px) {
     .header-logo {
-        height: 112px;
+        height: 96px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header-logo {
+        height: 124px;
     }
 }
 
@@ -181,9 +219,4 @@ h2.lb {
     background: #555555;
     margin-bottom: 0;
     text-align: center;
-}
-
-#footer a {
-    color: #FFF;
-    text-decoration: underline;
 }
