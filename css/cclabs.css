@@ -4,12 +4,21 @@ body {
     font-weight: 400;
 }
 
+.nav-link {
+    font-weight: 700;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
 .jumbotron {
     margin-top: 220px;
     background: url('../img/Hero.jpg');
     background-position: center;
     background-size: cover;
-    height: 240px;
+    height: 30vh;
+    min-height: 200px;
     margin-bottom: 0;
     padding: 0;
 }
@@ -17,7 +26,15 @@ body {
 @media only screen and (min-width: 600px) {
     .jumbotron {
         margin-top: 0;
-        height: 500px;
+        height: 40vh;
+        min-height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 900px) {
+    .jumbotron {
+        height: 50vh;
+        min-height: 500px;
     }
 }
 
