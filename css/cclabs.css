@@ -128,21 +128,21 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
 }
 
 .segment {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 @media only screen and (min-width: 576px) {
     .segment {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .segment {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
 
