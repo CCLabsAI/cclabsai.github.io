@@ -62,7 +62,6 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     background: none;
 }
 
-
 .jumbotron {
     margin-top: 220px;
     background: url('../img/hero-image-RGB.jpg');
@@ -230,6 +229,21 @@ p.vp {
 
 #mailchimp input:active,  #mailchimp input:focus {
     border-color: #153D9D;
+}
+
+#research .card {
+    border-radius: 10px;
+    border: 2px solid #158cc5;
+}
+
+#research .card figure {
+    background: #158cc5;
+    padding: 1em 0;
+    margin: 0;
+}
+
+#research .card figcaption {
+    padding: 10px;
 }
 
 #footer {
