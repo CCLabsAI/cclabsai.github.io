@@ -197,12 +197,6 @@ p.vp {
     padding-bottom: 24px;
 }
 
-#launch h1 {
-    color: #1DAFDD;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
 #ncep {
     background: #ECF3F5;
     text-align: center;
@@ -214,8 +208,24 @@ p.vp {
     text-align: center;
 }
 
-#mailchimp button {
+#mailchimp .btn-primary {
     background: #153D9D;
+    border-color: #153D9D;
+    font-weight: 700;
+}
+
+#mailchimp .btn-primary:hover, 
+#mailchimp .btn-primary:not(:disabled):not(.disabled):active {
+    background: #020f61;
+    border-color: #020f61;
+}
+
+#mailchimp input {
+    border: 2px solid rgba(21,61,157,0.5);
+    color: #153D9D;
+}
+
+#mailchimp input:active,  #mailchimp input:focus {
     border-color: #153D9D;
 }
 
