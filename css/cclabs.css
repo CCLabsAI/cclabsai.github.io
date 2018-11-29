@@ -163,6 +163,13 @@ a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:ac
     }
 }
 
+.vp-icon {
+    margin-bottom: 12px;
+    margin-top: 12px;
+    height: 48px;
+    width: auto;
+}
+
 .col-text {
     padding-top: 24px;
     padding-bottom: 24px;
