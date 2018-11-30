@@ -4,27 +4,194 @@ body {
     font-weight: 400;
 }
 
-.jumbotron {
-    background: url('../img/Hero.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 500px;
+@media only screen and (min-width: 576px) {
+    p {
+        font-size: 1.125rem;
+    }
 }
 
-.jumbotron .container #headline {
-    color: #FFF;
-    background: rgba(0, 0, 0, 0.3);
-    font-size: 1.75em;
-    padding: 30px 15px 30px 15px;
+.nav-link {
+    font-weight: 700;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+h2, h3, h4 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.3125rem;
+}
+
+.db {
+    color: #153D9D; 
+}
+
+.lb {
+    color: #1DAFDD;
+}
+
+.wh {
+    color: #fff;
+}
+
+a, a:link, a:visited {
+    color: #1DAFDD;
+    border-bottom: 1px solid #1DAFDD;
+    text-decoration: none;
+    transition: all 200ms ease; 
+}
+
+a:hover, a:active {
+    color: #153D9D; 
+    text-decoration: none;
+    background: #d2eff8;
+    border-color: #d2eff8 ;
+}
+
+a.navbar-brand, a.navbar-brand:link, a.navbar-brand:visited, a.navbar-brand:hover, a.navbar-brand:active,
+a.nav-link, a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active{
+    border-bottom: none;
+    background: none;
+}
+
+.jumbotron {
+    margin-top: 220px;
+    background: url('../img/hero-image-RGB.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    min-height: 200px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 576px) {
+    .jumbotron {
+        margin-top: 0;
+        height: 40vh;
+        min-height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (min-height: 900px) {
+    .jumbotron {
+        height: 50vh;
+        min-height: 500px;
+    }
+}
+
+#headline {
+    position: absolute;
+    top: 60px;
+    height: 220px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+@media only screen and (min-width: 576px) {
+    #headline {
+        position: static;
+        top: auto;
+        margin: 0 auto;
+        max-width: 320px;
+        height: auto;
+        padding: 0;
+    }
+}
+
+#headline mark { 
+    color: #153D9D; 
+    background: white;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+@media only screen and (min-width: 360px) {
+    #headline mark { 
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #headline mark { 
+        line-height: 1.4;
+    }
 }
 
 .segment {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 576px) {
+    .segment {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .segment {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 }
 
 .header-logo {
     margin-bottom: 24px;
+    height: 72px;
+    width: auto;
+}
+
+@media only screen and (min-width: 576px) {
+    .header-logo {
+        height: 96px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .header-logo {
+        height: 124px;
+    }
+}
+
+.vp-icon {
+    margin-bottom: 12px;
+    margin-top: 12px;
+    height: 64px;
+    width: auto;
+}
+
+@media only screen and (min-width: 576px) {
+    .vp-icon {
+        height: 64px;
+    }
+}
+
+p.vp {
+    font-size: 0.875rem;
+    line-height: 1.3;
+}
+
+@media only screen and (min-width: 576px) {
+    p.vp {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    p.vp {
+        font-size: 1.125rem;
+    }
 }
 
 .col-text {
@@ -32,28 +199,9 @@ body {
     padding-bottom: 24px;
 }
 
-#launch h1 {
-    color: #1DAFDD;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
-#ncep {
+#ncep, #team {
     background: #ECF3F5;
     text-align: center;
-}
-
-#ncep h1 {
-    color: #153D9D;
-    font-size: 1.25em;
-    font-weight: 600;
-}
-
-#ncep h2 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 1.1em;
-    font-weight: 600;
 }
 
 #mailchimp {
@@ -62,33 +210,46 @@ body {
     text-align: center;
 }
 
-#mailchimp button {
+#mailchimp .btn-primary {
     background: #153D9D;
+    border-color: #153D9D;
+    font-weight: 700;
+}
+
+#mailchimp .btn-primary:hover, 
+#mailchimp .btn-primary:not(:disabled):not(.disabled):active {
+    background: #020f61;
+    border-color: #020f61;
+}
+
+#mailchimp input {
+    border: 2px solid rgba(21,61,157,0.5);
+    color: #153D9D;
+}
+
+#mailchimp input:active,  #mailchimp input:focus {
     border-color: #153D9D;
 }
 
-#research {
-    text-align: left;
+#research .card {
+    border-radius: 10px;
+    border: 2px solid #158cc5;
 }
 
-#research  h1 {
-    font-size: 1.25em;
-    font-weight: 600;
-    color: #2794D1;
-    padding-bottom: 24px;
+#research .card figure {
+    background: #158cc5;
+    padding: 1em 0;
+    margin: 0;
 }
 
-#research h2 {
-    font-size: 1.1em;
-    font-weight: 600;
+#research .card figcaption {
+    padding: 10px;
 }
 
-#research .explainer {
-    padding-bottom: 24px;
-}
-
-#contact {
-    text-align: center;
+#contact .card {
+    border-radius: 10px;
+    width: 280px;
+    margin: 2rem auto 0 auto;
 }
 
 #footer {
@@ -96,9 +257,4 @@ body {
     background: #555555;
     margin-bottom: 0;
     text-align: center;
-}
-
-#footer a {
-    color: #FFF;
-    text-decoration: underline;
 }

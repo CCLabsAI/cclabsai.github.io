@@ -22,7 +22,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="https://use.typekit.net/nki5vhq.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hlg8ekp.css">
   <link rel="stylesheet" href="css/cclabs.css">
 
 </head>
@@ -35,7 +35,7 @@
   <!-- Add your site or application content here -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
-      <img src="img/cc_logo.svg" height="30" alt="">
+      <img src="img/cc_logo.svg" height="30" alt="cclabs">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,119 +60,203 @@
   <div class="jumbotron jumbotron-fluid">
     <div class="container h-100">
       <div class="row h-100 justify-content-center align-items-center">
-        <div class="col-8" id="headline">
-          CCLabs is a biotech startup working at the intersection of AI and neuroscience
+        <div class="col-12" id="headline">
+          <mark>CCLabs is a biotech startup working at the intersection of AI and neuroscience</mark>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid segment" id="launch">
+  <div class="container segment" id="launch">
     <div class="row justify-content-center">
-      <div class="col-md-6 order-2 order-md-1">
-        <h1>Just launched</h1>
-        CC Labs launched October 2018.
-        Our inaugural research project, ExIT-OOS is being demonstrated at the NEURIPS conference in Montreal in
-        December
-        2018.
+      <div class="col-sm-8 col-md-6 col-lg-4 order-2 order-sm-1 text-center text-sm-left">
+        <h2 class="lb">Just launched</h2>
+        <p>CC Labs launched October 2018. Our inaugural research project, ExIT-OOS is being demonstrated at the <a href="https://neurips.cc/Conferences/2018/Schedule?showEvent=12179" target="_blank">NeurIPS conference</a> in Montreal in December 2018.</p>
       </div>
-      <div class="col-auto order-1 order-md-2">
-        <img height="124px" src="img/launch.svg" />
+      <div class="col-auto order-1 order-sm-2">
+        <img class="header-logo" src="img/launch.svg" alt="rocket launching" />
       </div>
     </div>
   </div>
 
-  <div class="container-fluid segment" id="ncep">
-    <div class="row justify-content-center">
-      <img class="header-logo" height="124px" src="img/microscope.svg" />
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <h1>NCEP: Coming soon</h1>
-        <h2>A neuroscience wet-lab as a service</h2>
-        <p>
-          Our Neural Computing Experimentation Platform (NCEP) is coming soon. Your experiements, our neurons. You
-          design
-          and run remote ML experiments using our live neuronal cultures, grown and maintained in our start-of-the-art
-          facilities.
-        </p>
+  <div id="ncep">
+    <div class="container segment">
+      <div class="row justify-content-center">
+        <img class="header-logo" src="img/microscope.svg" alt="microscope" />
       </div>
-    </div>
-  </div>
-
-  <div class="container-fluid segment" id="mailchimp">
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <h1>Be the first to know</h1>
-        <p>
-          We'll send you an email when we launch the NCEP
-        </p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <form class="form-inline">
-        <div class="form-group mx-sm-3 mb-2">
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+      <div class="row justify-content-center">
+        <div class="col-md-6 mb-4">
+          <h2 class="db">NCEP: Coming soon</h2>
+          <h3>A neuroscience wet-lab as&nbsp;a&nbsp;service</h3>
+          <p>Our Neural Computing Experimentation Platform (NCEP) is coming soon. Your experiments, our neurons. You design and run remote ML experiments using our live neuronal cultures, grown and maintained in our start-of-the-art facilities.
+          </p>
         </div>
-        <button type="submit" class="btn btn-primary mb-2">Keep me in the loop</button>
-      </form>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6 col-lg-3">
+          <img class="vp-icon" src="img/vp-cutting-edge.svg" alt="half machine half brain" />
+          <p class="vp">Be at the cutting edge of neuroscience and ML</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img class="vp-icon" src="img/vp-lab.svg" alt="petri dish" />
+          <p class="vp">Fully accessible lab-as-service</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img class="vp-icon" src="img/vp-open-science.svg" alt="open science" />
+          <p class="vp">Open science ethos: no platform lock-in</p>
+        </div>
+        <div class="col-6 col-lg-3">
+          <img class="vp-icon" src="img/vp-scale.svg" alt="icon of scale increasing" />
+          <p class="vp">Scale up experiments, increase reproducibility</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+          <div class="col-6 col-lg-3">
+            <img class="vp-icon" src="img/vp-agile.svg" alt="agile icon" />
+            <p class="vp">Agile science: save on equipment &amp; man-power</p>
+          </div>
+          <div class="col-6 col-lg-3">
+            <img class="vp-icon" src="img/vp-audit-trail.svg" alt="audit trail document" />
+            <p class="vp">Full audit trail on experiment data</p>
+          </div>
+          <div class="col-6 col-lg-3">
+            <img class="vp-icon" src="img/vp-programming.svg" alt="programming icon" />
+            <p class="vp">Wide support for programming languages </p>
+          </div>
+          <div class="col-6 col-lg-3">
+            <img class="vp-icon" src="img/vp-data.svg" icon="data api icon" />
+            <p class="vp">Open standard for data format and APIs</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="mailchimp">
+    <div class="container segment">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h2 class="wh">Be the first to know</h2>
+          <p>
+            We'll send you an email when we launch the&nbsp;NCEP
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+          <form>
+            <div class="input-group mb-4">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-primary">Keep me in the loop</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="container segment" id="research">
       <div class="row justify-content-center">
-        <img class="header-logo" height="124px" src="img/research.svg" />
+        <img class="header-logo" src="img/research.svg" alt="beaker flask" />
       </div>
       <div class="row justify-content-center">
-        <div class="col-auto">
-          <h1>Our research</h1>
+        <div class="col-auto mb-4 text-center text-sm-left">
+          <h2 class="lb">Our research</h2>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-5 explainer">
-            <h2>Expert Iteration Online Outcome Sampling</h2>
+      <div class="row justify-content-center text-center text-sm-left">
+        <div class="col-sm-10  col-md-6 col-lg-5 mb-4">
+            <h3>Expert Iteration Online Outcome Sampling</h3>
             <p>The algorithm learns to play imperfect information games, such as Poker, against a human opponent. </p>
             <p>We use the Expert Iteration (ExIt) framework for our work. The Online Outcome Sampling (OOS) algorithm is used as the “expert” and a deep neural network as the “student”. </p> 
             <p>The deep neural network opponents are trained with cutting edge reinforcement learning algorithms to play near a Nash equilibrium.</p>
-            <h2>Read the full paper</h2>                                 
-            <a href="https://arxiv.org/abs/1808.10120">https://arxiv.org/abs/1808.10120</a>
+            <h3>Read the full paper</h3>                                 
+            <p><a href="https://arxiv.org/abs/1808.10120" target="_blank">https://arxiv.org/abs/1808.10120</a></p>
         </div>
-        <div class="col-auto col-sm-auto">
-            <div class="card ml-auto mr-auto" style="width: 18rem;">
-                <img class="card-img-top" src="img/game.png" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Example gameplay showing ExIT-OOS playing a human opponent</p>
-                </div>
+        <div class="col-sm-10 col-md-6 col-lg-4">
+          <div class="card">
+            <figure><img class="card-img-top" src="img/poker-optimize.gif" alt="Poker gameplay animation"></figure>
+            <figcaption>Example gameplay showing ExIT-OOS playing a human opponent</figcaption>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="team">
+      <div class="container segment">
+        <div class="row justify-content-center">
+          <div class="col-md-6 mb-4">
+            <h2 class="db">Leadership team</h2>
+            <p>We bring together neuroscientists and AI researchers in a proven engineering team.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-sm-4 mb-3">
+                <img height="84px" src="img/Hon.png" alt="Photo of Hon Weng Chong" />
+                <p class="vp mt-2">
+                  <strong class="db">Hon Weng Chong</strong>
+                  <br />
+                  CEO & Founder
+                  <br />
+                  <a href="https://www.linkedin.com/in/hochong/" target="_blank">LinkedIn</a> &nbsp; <a href="https://twitter.com/dr1337" target="_blank">Twitter</a>
+                </p>
               </div>
+              <div class="col-sm-4 mb-3">
+                <img height="84px" src="img/Andy.png" alt="Photo of Andy Kitchen" />
+                <p class="vp mt-2">
+                  <strong class="db">Andy Kitchen</strong>
+                  <br />
+                  ML/AI
+                  <br />
+                  <a href="https://www.linkedin.com/in/andy-kitchen/" target="_blank">LinkedIn</a> &nbsp; <a href="https://twitter.com/auastro" target="_blank">Twitter</a>
+                </p>
+              </div>
+              <div class="col-sm-4 mb-3">
+                <img height="84px" src="img/Linda.png" alt="Photo of Linda Lau" />
+                <p class="vp mt-2">
+                  <strong class="db">Linda Lau</strong>
+                  <br />
+                  Neuroscience
+                  <br />
+                  <a href="https://www.linkedin.com/in/chew-ling-linda-lau-a9135b25/" target="_blank">LinkedIn</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-  <div class="container-fluid segment" id="contact">
+  <div class="container segment" id="contact">
     <div class="row justify-content-center">
-      <img height="124px" src="img/mail.svg" />
+      <img class="header-logo" src="img/mail.svg" alt="Mail envelope" />
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center text-center">
       <div class="col-8">
-        <h1>Contact Us</h1>
-        <a href="mailto:info@cclabs.ai">info@cclabs.ai</a>
+        <h2 class="lb">Contact Us</h2>
+        <p><a href="mailto:info@cclabs.ai">info@cclabs.ai</a></p>
       </div>
     </div>
     <div class="row justify-content-center">
-      <img height="124px" src="img/wechat.png" />
+      <div class="col">
+        <div class="card text-center">
+          <div class="card-body">
+            <h3 class="card-title">Chat with us on WeChat</h2>
+            <p class="card-subtitle mb-2 text-muted">Scan the QR code to launch&nbsp;WeChat </p>
+            <a href="https://u.wechat.com/ILDVlwA8DSrYob6krYm8d9o" target="_blank"><img height="200px" src="img/wechat.png" alt="QR code to launch WeChat" /></a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="container-fluid segment" id="footer">
+  <footer class="container-fluid segment" id="footer">
     <div class="row justify-content-center">
-      <div class="col-8">
-        <p>cclabs © 2018</p>
-        <p>
-          <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link" href="https://cclabs.ai/privacy">Privacy Policy</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://cclabs.ai/terms">Terms & Conditions</a></li>
-          </ul>
-        </p>
+      <div class="col-md-8">
+        <p>Copyright © CClabs 2018</p>
+        <p><a href="https://cclabs.ai/privacy">Privacy Policy</a> &nbsp; <a href="https://cclabs.ai/terms">Terms & Conditions</a>        </p>
         <p>
           Level 6, 99 Commercial Rd
           <br />
@@ -180,7 +264,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </footer>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
